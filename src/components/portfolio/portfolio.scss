@@ -7,12 +7,22 @@
 
     h1{
         font-style: 50px;
+
+        @include mobile{
+            font-style: 20px;
+            
+        }
     }
     ul{
         margin: 10px;
         padding: 0;
         list-style: none;
         display: flex;
+        @include mobile{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
 
     }
     .container{
@@ -21,6 +31,9 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        @include mobile{
+            width: 100%;
+        }
 
         .item{
             width: 220px;
@@ -35,6 +48,11 @@
             position: relative;
             transition: all .5s ease;
             cursor: pointer;
+            @include mobile{
+                margin: 10px 0;
+                width: 130px;
+                height: 100px;
+            }
             h3{
                 position: absolute;
                 font-size: 20px;
