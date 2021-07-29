@@ -92,7 +92,7 @@
                             }
                             p{
                                 font-size: 13px;
-                                @include mobile {
+                                @include mobile{
                                     display: none;
                                 }
                             }

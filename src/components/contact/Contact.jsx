@@ -18,7 +18,7 @@ export default function Contact() {
             <img src="https://static.mbshosting.co.uk/eis-bw/media/rebranding%20headers/Approved%20illustration%20deck_Student%20wellbeing%20support%20CROPPED-%20copy%203.png" alt=""/>
         </div>
         <div className="right">
-        <h2>Contact.</h2>
+        <h2>Contact Us</h2>
         <form onSubmit={onSubmit}>
         <input type="text" placeholder="name" name="name"/>
             <input type="text" placeholder="Email" name="email"/>
