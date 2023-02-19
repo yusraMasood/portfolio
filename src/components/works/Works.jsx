@@ -7,21 +7,14 @@ export default function Works() {
             id: 1,
             icon: "assets/mobile.png",
             title: "Mobile App",
-            desc: "A flower is the reproductive part of flowering plants.Flowers are also called the bloom or blossom of a plant."
+            desc: "Responsible for developing, coding, testing, and maintaining existing app"
             
         },
         {
             id: 2,
             icon: "assets/mobile.png",
             title: "Web App",
-            desc: "A flower is the reproductive part of flowering plants.Flowers are also called the bloom or blossom of a plant."
-            
-        },
-        {
-            id: 3,
-            icon: "assets/mobile.png",
-            title: "Design",
-            desc: "A flower is the reproductive part of flowering plants.Flowers are also called the bloom or blossom of a plant."
+            desc: "A web developer, with 2 years of experience, developed responsive websites and implemented apis."
             
         },
     ];
@@ -39,7 +32,7 @@ export default function Works() {
                         <div className="imgContainer">
                             <img src={d.icon} alt="mobile"/>
                         </div>
-                        <h2>{d.title}</h2>
+                        <h2 >{d.title}</h2>
                         <p>{d.desc}</p>
                         <span>Projects</span>
                     </div>

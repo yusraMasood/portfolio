@@ -1,60 +1,70 @@
 export const featuredPortfolioList=[
     {
         id: 1,
-        title: "Social Media App",
-        img: "assets/web.png"
+        title: "Parlour Management",
+        img: "assets/parlour.jpeg",
+        // link:""
 
     },
     {
         id: 2,
-        title: "Social Media App",
-        img: "assets/web.png"
+        title: "Tinder",
+        img: "assets/tinder.png",
+        link:""
 
     },
     {
         id: 3,
-        title: "Social Media App",
-        img: "assets/web.png"
+        title: "Amazon",
+        img: "assets/amazon.png",
+        link:""
 
     },
     {
         id: 4,
-        title: "Social Media App",
-        img: "assets/web.png"
-
-    },
-    {
-        id: 5,
-        title: "Social Media App",
-        img: "assets/web.png"
-
-    },
-    {
-        id: 6,
-        title: "Social Media App",
-        img: "assets/web.png"
+        title: "Keith and Keneddy",
+        img: "assets/keith.jpeg",
+        link:""
 
     },
 ];
 export const mobilePortfolio=[
     {
         id: 1,
-        title: "Plant For Prosperity",
-        img: "assets/web.png"
-    }
-];
-export const designPortfolio=[
+        title: "Keith and Keneddy",
+        img: "assets/keith.jpeg",
+    },
     {
-        id: 1,
-        title: "Plant For Prosperity",
-        img: "assets/web.png"
+        id:2,
+        title: "Parlour Management",
+        img: "assets/parlour.jpeg",
     }
 ];
+// export const designPortfolio=[
+//     {
+//         id: 1,
+//         title: "Plant For Prosperity",
+//         img: "assets/web.png"
+//     },
+//     {
+//         id: 2,
+//         title: "Plant For Prosperity",
+//         img: "assets/web.png"
+//     }
+// ];
 export const webPortfolio=[
     {
-        id: 1,
-        title: "Social Media App",
-        img: "assets/web.png"
+        id: 2,
+        title: "Tinder",
+        img: "assets/tinder.png",
+        link:""
 
-    }
+    },
+    {
+        id: 3,
+        title: "Amazon",
+        img: "assets/amazon.png",
+        link:""
+
+    },
 ];

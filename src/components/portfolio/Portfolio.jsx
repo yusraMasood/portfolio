@@ -25,10 +25,10 @@ export default function Portfolio() {
         id: "mobile",
         title: "Mobile App"
     },
-    {
-        id: "design",
-        title: "Design"
-    },
+    // {
+    //     id: "design",
+    //     title: "Design"
+    // },
     ];
     useEffect(()=> {
         switch(selected){
