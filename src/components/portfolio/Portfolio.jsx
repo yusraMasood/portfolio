@@ -25,10 +25,6 @@ export default function Portfolio() {
         id: "mobile",
         title: "Mobile App"
     },
-    // {
-    //     id: "design",
-    //     title: "Design"
-    // },
     ];
     useEffect(()=> {
         switch(selected){
@@ -41,9 +37,9 @@ export default function Portfolio() {
         case "mobile":
         setData(mobilePortfolio);
         break;
-        case "design":
-        setData(designPortfolio);
-        break;
+        // case "design":
+        // setData(designPortfolio);
+        // break;
         default:
             setData(featuredPortfolioList);
         }
